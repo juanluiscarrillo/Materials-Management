@@ -10,10 +10,10 @@ Los datos se almacenan en una base de datos Access, aunque se pueden migrar fác
 ## Diseño de la aplicación
 
 Se trata de una aplicación visual. Cuando se lanza el programa, aparece una pantalla princial con las siguentes opciones:
-- Material
-- Proveedor
+- Materiales
+- Proveedores
 - Albaranes
-- Factura
+- Facturas
 - Historial precio
 
 El primer paso es crearse los proveedores. A continuación, los materiales. En ese momento, ya es posible introducir los albaranes. A partir de los albaranes, se genera la factura. 
