@@ -6,21 +6,26 @@ Los materiales se gestionan de manera separada por cada vendedor-fabricante. Est
 
 Los datos se almacenan en una base de datos Access, aunque se pueden migrar fácilmente a otra base de datos.
 
+## Introducción
+
+Se trata de una aplicación desarrollada en Java bajo el entorno de programación NetBeans. La base de datos utilizada es Microsft Access.
 
 ## Diseño de la aplicación
 
-Se trata de una aplicación visual. Cuando se lanza el programa, aparece una pantalla princial con las siguentes opciones:
+Se trata de una aplicación visual que cuando se lanza, aparece una pantalla princial con las siguentes opciones:
 - Materiales
 - Proveedores
 - Albaranes
 - Facturas
 - Historial precio
 
-El primer paso es crear los proveedores. A continuación, los materiales. En ese momento, ya es posible introducir los albaranes. A partir de los albaranes, se genera la factura. 
+El primer paso es crear los proveedores. A continuación, los materiales. En ese momento, ya es posible introducir los albaranes, y a partir de ellos, generar la factura. 
+
+Desde la ventana *Historial precio* se puede realizar una comparación de los precios que ha ido tomando una material.
 
 # Utilización de la aplicación
 
-La explicación presupone que se está utilizando linux. No obstante, para otros sistemas operativos los pasos serán similares. Además, se cuenta con que se tienen correctamente instalados: git y un JDK actualizado de Java.
+La explicación presupone que se está utilizando linux. No obstante, para otros sistemas operativos los pasos serán similares. Además, se cuenta con que se tienen correctamente instalados: git y un JDK de Java.
 
 En el repositorio se guardan los ficheros fuentes (dentro de la carpeta *src*), los *.jar* necesarios, la base de datos y los *scripts* de compilación y ejecución. A continuación, se detallan todos los pasos que se ha de seguir:
 1. Clonación del proyecto: `git clone https://github.com/juanluiscarrillo/Materials-Management.git`
