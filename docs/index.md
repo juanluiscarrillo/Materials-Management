@@ -16,7 +16,7 @@ Se trata de una aplicación visual. Cuando se lanza el programa, aparece una pan
 - Facturas
 - Historial precio
 
-El primer paso es crearse los proveedores. A continuación, los materiales. En ese momento, ya es posible introducir los albaranes. A partir de los albaranes, se genera la factura. 
+El primer paso es crear los proveedores. A continuación, los materiales. En ese momento, ya es posible introducir los albaranes. A partir de los albaranes, se genera la factura. 
 
 # Utilización de la aplicación
 
