@@ -1,6 +1,6 @@
 # Gestión de materiales
 
-Se trata de una aplicación para la gestión de las compras de una empresa de instalaciones eléctricas y telecomunicaciones. Está especialmente diseñada para el control de los precios de los proveedores. 
+Se trata de una aplicación realizada en Java para la gestión de las compras de una empresa de instalaciones eléctricas y telecomunicaciones. Está especialmente diseñada para el control de los precios de los proveedores. 
 
 Los materiales se gestionan de manera separada por cada vendedor-fabricante. Esto facilita enormemente la introducción de datos, ya que el código del material coincide con el código que el vendedor pone en los albaranes. No obstante, para facilitar las búsquedas, cada material está asociado a una categoría.
 
