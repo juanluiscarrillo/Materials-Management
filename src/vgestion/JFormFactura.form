@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="title" type="java.lang.String" value="Facturas"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1000, 600]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="componentResized" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="formComponentResized"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="138" pref="138" max="138" attributes="0"/>
+              <Component id="jSPMaterial" min="-2" pref="124" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="306" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="432" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jbEliminar" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbEditar" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jlIdfactura" min="-2" pref="22" max="-2" attributes="0"/>
+                          <EmptySpace min="20" pref="20" max="20" attributes="0"/>
+                          <Component id="jtfIdfactura" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jlIdproveedor" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="jlFechaDesde" min="-2" pref="22" max="-2" attributes="0"/>
+                          <EmptySpace min="20" pref="20" max="20" attributes="0"/>
+                          <Component id="jtfFechaDesdeDia" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="jbBuscar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="5" pref="5" max="5" attributes="0"/>
+                  <Component id="jbNuevo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="32" max="32767" attributes="0"/>
+                  <Component id="jtfIdproveedor" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="4" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                  <Component id="jtfFechaDesdeMes" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="368" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="5" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  <Component id="jtfFechaDesdeAnio" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="358" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="6" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlFechaHasta" min="-2" pref="22" max="-2" attributes="0"/>
+                  <EmptySpace min="20" pref="20" max="20" attributes="0"/>
+                  <Component id="jtfFechaHastaDia" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="332" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="7" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  <Component id="jtfFechaHastaMes" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="442" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="8" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                  <Component id="jtfFechaHastaAnio" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="416" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="9" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="400" max="32767" attributes="0"/>
+                  <Component id="jbMostrarHistorial" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+              <Component id="jSPMaterial" min="-2" pref="27" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+              <Component id="jbEditar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="jbEliminar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="155" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="3" pref="3" max="3" attributes="0"/>
+                          <Component id="jlIdfactura" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jtfIdfactura" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="2" pref="2" max="2" attributes="0"/>
+                  <Component id="jlIdproveedor" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="3" pref="3" max="3" attributes="0"/>
+                          <Component id="jlFechaDesde" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jtfFechaDesdeDia" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jbBuscar" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbNuevo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                  <Component id="jtfIdproveedor" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="229" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="4" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="189" max="-2" attributes="0"/>
+                  <Component id="jtfFechaDesdeMes" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="191" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="5" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="199" max="32767" attributes="0"/>
+                  <Component id="jtfFechaDesdeAnio" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="6" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="189" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="3" pref="3" max="3" attributes="0"/>
+                          <Component id="jlFechaHasta" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jtfFechaHastaDia" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="7" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+                  <Component id="jtfFechaHastaMes" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="238" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="8" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="266" max="32767" attributes="0"/>
+                  <Component id="jtfFechaHastaAnio" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="9" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="289" max="32767" attributes="0"/>
+                  <Component id="jbMostrarHistorial" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlIdfactura">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Id Factura"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfIdfactura">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[400, 20]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[400, 20]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlIdproveedor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Id Proveedor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfIdproveedor">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[400, 20]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[400, 20]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlFechaDesde">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desde"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfFechaDesdeDia">
+      <Properties>
+        <Property name="columns" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfFechaDesdeMes">
+      <Properties>
+        <Property name="columns" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfFechaDesdeAnio">
+      <Properties>
+        <Property name="columns" type="int" value="4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlFechaHasta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hasta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfFechaHastaDia">
+      <Properties>
+        <Property name="columns" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfFechaHastaMes">
+      <Properties>
+        <Property name="columns" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfFechaHastaAnio">
+      <Properties>
+        <Property name="columns" type="int" value="4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbBuscar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbBuscarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbNuevo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nuevo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbNuevoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbEditar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Editar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbEditarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbEliminar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eliminar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbEliminarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbMostrarHistorial">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Historial Factura"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbMostrarHistorialActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jSPMaterial">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTMaterial">
+          <Properties>
+            <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTMaterialMouseClicked"/>
+            <EventHandler event="inputMethodTextChanged" listener="java.awt.event.InputMethodListener" parameters="java.awt.event.InputMethodEvent" handler="jTMaterialInputMethodTextChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="//jTMaterial.getColumnModel().getColumn(0).setWidth(1);&#xa;//jTMaterial.getColumnModel().getColumn(1).setWidth(1);&#xa;//jTMaterial.getColumnModel().getColumn(2).setWidth(1);&#xa;//jTMaterial.getColumnModel().getColumn(3).setWidth(1000);&#xa;//jTMaterial.updateUI();"/>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jTMaterial.setModel(facturaTableModel);"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
