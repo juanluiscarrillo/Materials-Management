@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Gestión de materiales
 
-You can use the [editor on GitHub](https://github.com/juanluiscarrillo/Materials-Management/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Se trata de una aplicación para la gestión de las compras de una empresa de instalaciones eléctricas y telecomunicaciones. Está especialmente diseñada para el control de los precios de los proveedores. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Los materiales se gestionan de manera separada por cada vendedor-fabricante. Esto facilita enormemente la introducción de datos, ya que el código del material coincide con el código que el vendedor pone en los albaranes. No obstante, para facilitar las búsquedas, cada material está asociado a una categoría.
 
-### Markdown
+Los datos se almacenan en una base de datos Access, aunque se pueden migrar fácilmente a otra base de datos.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Diseño de la aplicación
 
-# Header 1
-## Header 2
-### Header 3
+Se trata de una aplicación visual. Cuando se lanza el programa, aparece una pantalla princial con las siguentes opciones:
+- Material
+- Proveedor
+- Albaranes
+- Factura
+- Historial precio
 
-- Bulleted
-- List
+El primer paso es crearse los proveedores. A continuación, los materiales. En ese momento, ya es posible introducir los albaranes. A partir de los albaranes, se genera la factura. 
 
-1. Numbered
-2. List
+# Utilización de la aplicación
 
-**Bold** and _Italic_ and `Code` text
+La explicación presupone que se está utilizando linux. No obstante, para otros sistemas operativos los pasos serán similares. Además, se cuenta con que se tienen correctamente instalados: git y un JDK actualizado de Java.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/juanluiscarrillo/Materials-Management/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+En el repositorio se guardan los ficheros fuentes (dentro de la carpeta *src*), los *.jar* necesarios, la base de datos y los *scripts* de compilación y ejecución. A continuación, se detallan todos los pasos que se ha de seguir:
+1. Clonación del proyecto: `git clone https://github.com/juanluiscarrillo/Materials-Management.git`
+2. Acceso a la carpeta del proyecto: `cd Materials-Management/`
+3. Concesión permiso de ejecución de los *scripts*: `chmod +x *.sh`
+4. Compilación: `./compile.sh`
+5. Ejecución: `./exe.sh`
